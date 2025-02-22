@@ -1,0 +1,1 @@
+let fullName = document.getElementById("fullName");
