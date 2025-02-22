@@ -1,1 +1,1 @@
-let fullName = document.getElementById("fullName");
+let password = document.getElementById("password");
