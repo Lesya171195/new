@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Nunito;
+    src: url("fonts/ofont.ru_Nunito.ttf");
+}
+body{
+    background: linear-gradient(to right, #FFFFFF 50%, #F8F8FA 50%);
+    font-family: "Nunito", sans-serif;
+}
+.container {
+    max-width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    font-family: Nunito, sans-serif;
+}
+.logo {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 112px;
+}
+.info{
+    max-width: 496px;
+}
+.info-title{
+    font-style: normal;
+    font-size: 36px;
+    color: #000000;
+    padding-bottom: 7px;
+}
+.info-text{
+    font-style: normal;
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    padding-bottom: 42px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;;
+    align-items: center;
+}
+.form input {
+    height: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #C6C6C4;
+    max-width: 452px;
+    font-style: normal;
+    font-size: 20px;
+    color: #323232;
+    outline: none;
+}
+.label-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.form label {
+    font-style: normal;
+    font-size: 16px;
+    color: #C6C6C4;
+}
+.question {
+    font-style: normal;
+    font-size: 16px;
+    color: #636363;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 210px;
+    height: 70px;
+    background-color: #DD3142;
+    border-radius: 40px;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    margin: 40px 0;
+}
+.question {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    color: #636363;
+}
+.popup{
+    position: fixed;
+    top: 45%;
+    left: 35%;
+    width: 600px;
+    text-align: center;
+    background: black;
+    color: white;
+    border-radius: 2%;
+    opacity: 40%;
+    display: none;
+}
+.popup p{
+    font-size: 30px;
+}
+.popup .btn{
+    width: 210px;
+    height: 70px;
+    background-color: #DD3142;
+    border-radius: 40px;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+.image{
+   margin-left:11px;
+}
+.checkbox-big{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    align-content: flex-start;
+}
+
