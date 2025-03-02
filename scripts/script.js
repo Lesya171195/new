@@ -89,4 +89,6 @@ window.onload = function () {
             alert("Добро пожаловать, " + yourUsername.value)
         }
     }
+
+    console.log("Привет")
 }
