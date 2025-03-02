@@ -34,7 +34,7 @@ body{
 .info-title{
     font-style: normal;
     font-size: 36px;
-    color: rgba(0, 0, 0, 0.03);
+    color: rgba(0, 0, 0, 0.98);
     padding-bottom: 7px;
 }
 .info-text{
