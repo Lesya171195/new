@@ -9,6 +9,7 @@ window.onload = function () {
     let button2 = document.getElementById("popupBtn");
     let link = document.getElementById("linkLogin");
     let title = document.getElementById("title");
+    let tittle = document.getElementById("title");
 
     let inputs = [fullName.parentNode, email.parentNode, repeatPassword.parentNode, checkbox.parentNode, link];
 
