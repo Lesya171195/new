@@ -7,7 +7,7 @@
     src: url("fonts/ofont.ru_Nunito.ttf");
 }
 body{
-    background: linear-gradient(to right, #772f2f 50%, #ffffff 50%);
+    background: linear-gradient(to right, #772f2f 50%, #0a4459 50%);
     font-family: "Nunito", sans-serif;
 }
 .container {
